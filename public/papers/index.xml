@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Select Papers on Judith F. Kribelbauer</title>
+    <link>https://jukri.github.io/papers/</link>
+    <description>Recent content in Select Papers on Judith F. Kribelbauer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://jukri.github.io/papers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Context transcription factors establish cooperative environments and mediate enhancer communication</title>
+      <link>https://jukri.github.io/papers/paper3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jukri.github.io/papers/paper3/</guid>
+      <description>Kribelbauer, J. F., Laptenko, O., Chen, S., Martini, G. D., Freed-Pastor, W. A., Prives, C., &amp;hellip; &amp;amp; Bussemaker, H. J. (2017). Quantitative analysis of the DNA methylation sensitivity of transcription factor complexes. Cell reports, 19(11), 2383-2395.</description>
+    </item>
+    
+    <item>
+      <title>Context-dependent gene regulation by homeodomain transcription factor complexes revealed by shape-readout deficient proteins</title>
+      <link>https://jukri.github.io/papers/paper2_molcell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jukri.github.io/papers/paper2_molcell/</guid>
+      <description>Kribelbauer, J. F., Loker, R. E., Feng, S., Rastogi, C., Abe, N., Rube, H. T., &amp;hellip; &amp;amp; Mann, R. S. (2020). Context-dependent gene regulation by homeodomain transcription factor complexes revealed by shape-readout deficient proteins. Molecular cell, 78(1), 152-167.</description>
+    </item>
+    
+    <item>
+      <title>Low-Affinity Binding Sites and the Transcription Factor Specificity Paradox in Eukaryotes</title>
+      <link>https://jukri.github.io/papers/paper1_lowaffin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jukri.github.io/papers/paper1_lowaffin/</guid>
+      <description>Kribelbauer, J. F., Rastogi, C., Bussemaker, H. J., &amp;amp; Mann, R. S. (2019). Low-affinity binding sites and the transcription factor specificity paradox in eukaryotes. Annual review of cell and developmental biology, 35, 357-379.</description>
+    </item>
+    
+  </channel>
+</rss>

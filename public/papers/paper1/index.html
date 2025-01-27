@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Visual Capital | Adam R. Swietek</title>
+<meta name="keywords" content="geoAI, building-performance, visual-quality, urban-analytics">
+<meta name="description" content="This paper introduces a viewpoint visual share simulation, view-metrics, and a novel index Visual Capital. Published in Landscape and Urban Planning, Dec 2023.">
+<meta name="author" content="Adam R. Swietek, Wüest Partner">
+<link rel="canonical" href="https://adamswietek.github.io/papers/paper1/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.e6a5e88e2db154a472506061adb422506c68763f439560b2fdaea2816aecdbd6.css" integrity="sha256-5qXoji2xVKRyUGBhrbQiUGxodj9DlWCy/a6igWrs29Y=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://adamswietek.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://adamswietek.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://adamswietek.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://adamswietek.github.io/apple-touch-icon.png">
+
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Visual Capital" />
+<meta property="og:description" content="This paper introduces a viewpoint visual share simulation, view-metrics, and a novel index Visual Capital. Published in Landscape and Urban Planning, Dec 2023." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://adamswietek.github.io/papers/paper1/" />
+<meta property="og:image" content="https://adamswietek.github.io/paper2.jpeg" /><meta property="article:section" content="papers" />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://adamswietek.github.io/paper2.jpeg" />
+<meta name="twitter:title" content="Visual Capital"/>
+<meta name="twitter:description" content="This paper introduces a viewpoint visual share simulation, view-metrics, and a novel index Visual Capital. Published in Landscape and Urban Planning, Dec 2023."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Papers",
+      "item": "https://adamswietek.github.io/papers/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Visual Capital",
+      "item": "https://adamswietek.github.io/papers/paper1/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Visual Capital",
+  "name": "Visual Capital",
+  "description": "This paper introduces a viewpoint visual share simulation, view-metrics, and a novel index Visual Capital. Published in Landscape and Urban Planning, Dec 2023.",
+  "keywords": [
+    "geoAI", "building-performance", "visual-quality", "urban-analytics"
+  ],
+  "articleBody": " Abstract Evaluating visual landscape quality provides valuable information for urban development and spatial planning. In practice however, obtaining high resolution view-metrics and outcome data with sufficient geographic coverage has remained challenging. To overcome this limitation, we construct a scalable measure of visual landscape quality by first defining building-level view-metrics derived from a large-scale 3D representation of Switzerland’s building stock. Leveraging the principle of income-sorting, we estimate visual preferences by calibrating the building level view-metrics with commune-level incomes (CLI). The learned model captures common intuition on visual preferences, i.e. attributing positive weight to lake-views, and identifies context-dependent relationships between view metrics. To contextualize the derived quantitative measure, we refer to the preference for a building’s portfolio of viewpoints as a building’s visual capital (VC). By assessing the supply of VC across Switzerland’s entire building stock, we uncover an association between VC and the urban and natural form, where urban density and landscape topology explain the strength of view-driven-income sorting across agglomerations. We demonstrate that spatial clustering of VC varies across cities and frequently crosses administrative boundaries. Finally, we release a privacy protected version of VC at www.visualcapital.xyz , which we expect to promote future interdisciplinary studies focused on correlates of visual landscape quality (whether financial, social, environmental or physiological).\nFigure X: Figure caption Citation Swietek, A. R. \u0026 Zumwald, M. Visual Capital: Evaluating building-level visual landscape quality at scale. Landscape and Urban Planning 240, 104880 (2023) https://doi.org/10.1016/j.landurbplan.2023.104880 @article{SWIETEK2023104880, author = {Adam R. Swietek and Marius Zumwald}, doi = {https://doi.org/10.1016/j.landurbplan.2023.104880}, journal = {Landscape and Urban Planning}, pages = {104880}, title = {Visual Capital: Evaluating building-level visual landscape quality at scale}, volume = {240}, year = {2023}} Related material Visualize Data EPFL Open Data ",
+  "wordCount" : "281",
+  "inLanguage": "en",
+  "image":"https://adamswietek.github.io/paper2.jpeg","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Adam R. Swietek, Wüest Partner"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://adamswietek.github.io/papers/paper1/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Adam R. Swietek",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://adamswietek.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://adamswietek.github.io" accesskey="h" title="Adam R. Swietek">
+             
+                <img src="https://adamswietek.github.io/favicon.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Adam R. Swietek</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://adamswietek.github.io/papers/" title="Papers">
+                    <span>Papers</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Visual Capital
+    </h1>
+    <div class="post-meta">Adam R. Swietek, Wüest Partner&nbsp;&middot;&nbsp;<a href="https://doi.org/10.1016/j.landurbplan.2023.104880" rel="noopener noreferrer" target="_blank">Landscape and Urban Planning, Dec 2023</a>
+
+</div>
+  </header> 
+  <div class="post-content"><hr>
+<!-- ##### Download
+
++ [Paper](paper1.pdf)
++ [Online appendix](appendix1.pdf)
++ [Code and data](https://github.com/pmichaillat/job-rationing) -->
+<hr>
+<h5 id="abstract">Abstract</h5>
+<p>Evaluating visual landscape quality provides valuable information for urban development and spatial planning. In practice however, obtaining high resolution view-metrics and outcome data with sufficient geographic coverage has remained challenging. To overcome this limitation, we construct a scalable measure of visual landscape quality by first defining building-level view-metrics derived from a large-scale 3D representation of Switzerland’s building stock. Leveraging the principle of income-sorting, we estimate visual preferences by calibrating the building level view-metrics with commune-level incomes (CLI). The learned model captures common intuition on visual preferences, i.e. attributing positive weight to lake-views, and identifies context-dependent relationships between view metrics. To contextualize the derived quantitative measure, we refer to the preference for a building’s portfolio of viewpoints as a building’s visual capital (VC). By assessing the supply of VC across Switzerland’s entire building stock, we uncover an association between VC and the urban and natural form, where urban density and landscape topology explain the strength of view-driven-income sorting across agglomerations. We demonstrate that spatial clustering of VC varies across cities and frequently crosses administrative boundaries. Finally, we release a privacy protected version of VC at <a href="https://www.visualcapital.xyz" target="_blank">www.visualcapital.xyz</a>
+, which we expect to promote future interdisciplinary studies focused on correlates of visual landscape quality (whether financial, social, environmental or physiological).</p>
+<hr>
+<h5 id="figure-x-figure-caption">Figure X: Figure caption</h5>
+<p><img loading="lazy" src="paper1.jpeg" alt=""  />
+</p>
+<hr>
+<h5 id="citation">Citation</h5>
+<p>Swietek, A. R. &amp; Zumwald, M. Visual Capital: Evaluating building-level visual landscape quality at scale. Landscape and Urban Planning 240, 104880 (2023) <a href="https://doi.org/10.1016/j.landurbplan.2023.104880" target="_blank">https://doi.org/10.1016/j.landurbplan.2023.104880</a>
+</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-BibTeX" data-lang="BibTeX"><span style="display:flex;"><span><span style="color:#0a0;text-decoration:underline">@article</span>{SWIETEK2023104880,
+</span></span><span style="display:flex;"><span>	<span style="color:#1e90ff">author</span> = <span style="color:#a50">{Adam R. Swietek and Marius Zumwald}</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#1e90ff">doi</span> = <span style="color:#a50">{https://doi.org/10.1016/j.landurbplan.2023.104880}</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#1e90ff">journal</span> = <span style="color:#a50">{Landscape and Urban Planning}</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#1e90ff">pages</span> = <span style="color:#a50">{104880}</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#1e90ff">title</span> = <span style="color:#a50">{Visual Capital: Evaluating building-level visual landscape quality at scale}</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#1e90ff">volume</span> = <span style="color:#a50">{240}</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#1e90ff">year</span> = <span style="color:#a50">{2023}</span>}
+</span></span></code></pre></div><hr>
+<h5 id="related-material">Related material</h5>
+<ul>
+<li><a href="http://www.visualcapital.xyz" target="_blank">Visualize Data</a>
+</li>
+<li><a href="https://www.epfl.ch/schools/enac/open-visual-capital-data/" target="_blank">EPFL Open Data</a>
+</li>
+</ul>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://adamswietek.github.io/tags/geoai/">geoAI</a></li>
+      <li><a href="https://adamswietek.github.io/tags/building-performance/">building-performance</a></li>
+      <li><a href="https://adamswietek.github.io/tags/visual-quality/">visual-quality</a></li>
+      <li><a href="https://adamswietek.github.io/tags/urban-analytics/">urban-analytics</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    &copy; 2023 Adam R. Swietek
+    <span>
+    &middot;  Powered by 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">a modified version</a>
+         of 
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>
