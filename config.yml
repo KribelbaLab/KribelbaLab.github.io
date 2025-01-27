@@ -1,5 +1,5 @@
 baseURL: "https://jukri.github.io" 
-title: Judith F. Kribelbauer
+title: Kribelbauer Lab at USC
 paginate: 20
 theme: PaperMod
 
@@ -49,8 +49,8 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Judith F. Kribelbauer
-          subtitle: "Marie-Curie Postdoctoral Fellow at EPFL (École polytechnique fédérale de Lausanne) "
+          title: Kribelbauer Lab
+          subtitle: " Research "
           imageUrl: "headshot.jpg"
           imageWidth: 280
           imageHeight: 280
